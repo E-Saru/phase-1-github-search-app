@@ -1,33 +1,25 @@
-<html>
+<html lang="en">
 <head>
-  <meta charset='UTF-8'/>
-  <meta name='viewport' content='width=device-width, initial-scale=1.0'/>
-  <meta http-equiv='X-UA-Compatible' content='ie=edge'/>
-  <title>Document</title>
-  <script src='js/index.js'></script>
-  <link rel='stylesheet' href='index.css'/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Github Search app</title>
+    <link rel="stylesheet" href="./index.css">
 </head>
 <body>
-  <div id='main'>
-
-    <h2>GitHub Search</h2>
-
-    <form id='github-form'>
-      <input id='search' type='text' name='search'>
-      <input type='submit' name='submit'/>
-    </form>
-
-    <div id='github-container'>
-      <ul id='user-list'>
-
-      </ul>
-
-      <ul id='repos-list'>
-
-      </ul>
+    <div id="header">
+    <nav>
+        <img src="gth.png" alt="logo" class="logo">
+        <ul>
+            <li><a href="#header">Home</a></li>
+        </ul>
+    </nav>
     </div>
-
-  </div>
-
+    <h1>Github Search</h1>
+    <p>You can search any Github acount below:</p>
+    <form id="form">
+        <input type="text" name="username" placeholder="Enter Username" required>
+    </form>
+    <button id="btn"> search</button>
+      <script src="./index.js"></script>
 </body>
-</html>
+</html> 
